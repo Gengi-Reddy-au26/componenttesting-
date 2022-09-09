@@ -1,0 +1,30 @@
+.slider{
+  & .label{min-width:120px;}
+  & .value{background-color:#ffffff; padding:2px 10px; border-radius:10px; box-shadow:0px 3px 4px inset rgba(0,0,0,0.1);}
+}
+
+.tag{
+  background-color:rgba(0,0,0,0.05); border-radius:20px; padding:2px 10px; 
+  &.sm{font-size:12px;}
+  &.lg{font-size:18px; padding:4px 20px; }
+  &.green{background-color:rgba(2,195,21,0.05); color:rgba(2,195,21,1);}
+  &.orange{background-color:rgba(255,153,0,0.05); color:rgba(255,153,0,1);}
+  &.blue{background-color:rgba(0,56,255,0.05); color:rgba(0,56,255,1);}
+    &.light_blue{background-color:rgba(0,56,255,0.02); color:rgba(4, 39, 167,1);}
+  &.yellow{background-color:rgba(208,211,0,0.05); color:rgba(208,211,0,1);}
+  &.purple{background-color:rgba(190, 0, 207,0.05); color:rgba(190, 0, 207,1);}
+  &.red{background-color:rgba(249, 2, 2,0.05); color:rgba(249, 2, 2,1);}
+  &.white{background-color:rgba(249, 255, 255, 1); color:rgba(0, 0, 0, 0.5); border:1px solid rgba(0,0,0,0.1);}
+}
+
+.dot{
+  border:1px solid rgba(0,0,0,0.1); width:14px; height:14px; border-radius:20px; margin-right:10px;
+  &.active{background-color:rgba(2, 195,21, 1); border-color:transparent;}
+} 
+.id{
+  min-width:100px; 
+  & .id_{
+    font-size:20px; background-color:#ffffff; border-radius:50px; display:flex; justify-content:center; align-items:center; 
+    width:60px; height:60px;  margin-right:14px; box-shadow: 0 30px 20px -16px rgba(0, 0, 0, 0.05), 0 2px 4px 0 rgba(0, 0, 0, 0.05);
+  }
+}

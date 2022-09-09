@@ -1,0 +1,36 @@
+.main{
+  display:flex; flex-wrap:wrap;  position:relative; width:100%; 
+  & .inner{
+    max-width:1224px; margin:auto;
+  }
+  & .head{
+    padding:40px 0px; border-bottom:1px solid rgba(0,0,0,0.1);
+  }
+  & .user{
+    width:380px; height:380px;
+  }
+  & .desc{
+    padding-right:300px;
+  }
+  & .settings{
+    cursor:pointer;
+  }
+  
+}
+.collabs{
+  display:flex; margin-bottom:100px; margin-top:20px; margin-left:-10px;  margin-right:-10px;
+}
+
+.collab{
+  width:200px; padding:10px; 
+  & .inner{
+    background-color:#FBFBFB; padding:20px; box-shadow:0px 4px 4px -4px rgba(0,0,0,0.1); border-radius:20px; 
+    display:flex; flex-direction:column; align-items:center; border:1px solid rgba(0,0,0,0.3); cursor:pointer;
+    &:hover{
+      background-color:#ffffff; border-color:rgba(0,0,0,0.5);
+    }
+  }
+  & .name{
+    margin-top:10px; color:#0D16FD;
+  }
+}
